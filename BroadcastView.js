@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { PropTypes } from "prop-types";
+import { PropTypes } from 'prop-types';
 import {StyleSheet, requireNativeComponent, NativeModules, View, DeviceEventEmitter, Platform} from 'react-native';
 const BroadcastManager = NativeModules.BroadcastModule;
 
